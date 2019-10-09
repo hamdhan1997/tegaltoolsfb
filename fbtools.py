@@ -19,12 +19,15 @@ try:
 	shutil.rmtree("src/__pycache__")
 except: pass
 
-#banner
+#banner
+
 def banner():
 	print(cyan(' ●●\●    ●/●●',bold=True))
-	print(cyan(' ●   ●  ●   ●',bold=True),green('Author : H4CK3R CYB3R T34M T3G4L',bold=True))
+	print(cyan(' ●   ●  ●   ●',bold=True),green('Author : H4CK3R CYB3R T34M T3G4L',bold=True))
+
 	print(cyan(' ●    ●●    ● ',bold=True),green('Website: www.hamdhan1997.blogspot.com',bold=True))
-	print(cyan(' ●          ●',bold=True),green('version:',bold=True),cyan('2.7',bold=True))
+	print(cyan(' ●          ●',bold=True),green('version:',bold=True),cyan('2.7',bold=True))
+
 
 
 try:
@@ -254,7 +257,7 @@ try:
 [00]> Check update""")
 except (KeyError,NameError): pass
 
-pilih=int(input('\n[#] kang-newbie/> '))
+pilih=int(input('\n[#] tegal_pagerbarang/> '))
 DOS.Dos()
 if pilih == 2:
 	import src.Abrute
